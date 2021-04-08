@@ -1,0 +1,107 @@
+main {
+
+}
+.main-container {
+  /* background: lightcoral; */
+  width: 1280px; /* 이 부분과 grid로 인해 상단 바가 같이 움직임*/
+  margin: auto;
+  /*--> Signin 페이지랑 충돌이 일어나서 header 파일이 약간 움직임*/
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(34, 40px);
+  gap: 5px;
+  position: relative;
+}
+.signup_container {
+  /* background: lightgreen; */
+  grid-column: 2/3;
+  grid-row: 2/26;
+}
+.signup_container p {
+  font-size: 13px;
+  line-height: 2px;;
+}
+.signup_container input {
+  border: 2px solid #D8D8D8;
+  border-radius: 5px; 
+  background-color: white;
+  height: 47px;
+  width: 408px;
+}
+.signup_container font {
+  color: red;
+}
+
+.signup_text {
+  margin-top: 73px;
+}
+.signup_id {
+  margin-top: 52px;;
+}
+.signup_pw {
+  margin-top: 16px;
+}
+.signup_pw_check {
+  margin-top: 16px;
+}
+.pnu_id {
+  margin-top: 16px;
+}
+.phone {
+  margin-top: 16px;
+}
+.Name {
+  margin-top: 16px;
+}
+.department {
+  margin-top: 16px;
+}
+.department button {
+  height: 50px; 
+  width: 416px;
+}
+.agree {
+  margin-top: 16px;
+}
+.agree input {
+  width: 14px;
+  height: 14px;
+  float: left;
+}
+.agree p {
+  padding-left: 30px;
+  padding-top: 8.5px;
+}
+.agree a {
+  color: black;
+  text-decoration: underline;
+  font-weight: bold;
+}
+.agree p font {
+  color: red;
+}
+
+.signup_button {
+  margin-top: 25px;
+}
+.signup_button input {
+  font-size: 18px; 
+  font-weight: bold;
+  color: white; 
+  border:none; 
+  border-radius: 5px; 
+  background-color: #2E64FE; 
+  height: 66.02px; 
+  width: 412px
+}
+
+.recheck {
+  margin-top: 23.99px;
+  text-align: center;
+  color: #929292;
+}
+.recheck a {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #929292;
+}

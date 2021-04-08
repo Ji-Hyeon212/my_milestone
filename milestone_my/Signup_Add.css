@@ -1,0 +1,130 @@
+  main {
+
+  }
+  .main-container {
+      /* background: lightcoral; */
+      width: 1280px; /* 이 부분과 grid로 인해 상단 바가 같이 움직임*/
+      margin: auto;
+      /*--> Signin 페이지랑 충돌이 일어나서 header 파일이 약간 움직임*/
+      display: grid; 
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(34, 40px);
+      gap: 5px;
+      position: relative;
+  }
+  .signup_add_container {
+      /* background: lightgreen; */
+      grid-column: 2/3;
+      grid-row: 2/26;
+  }
+
+  .signup_text {
+    margin-top: 73px;
+  }
+  .signup_text p {
+    font-size: 13px;
+  }
+
+  .profile {
+    margin-top: 46px;
+    text-align: center;
+  }
+  .profile img {
+    width: 180px;
+    height: 180px;
+  }
+  .profile p a {
+    color: #000000;
+  }
+/* 이름 */
+  .name {
+    margin-top: 29px;
+  }
+  .name p {
+    font-size: 13px;
+    line-height: 2px;
+  }
+  .name input {
+    border: 2px solid #D8D8D8;
+    border-radius: 5px; 
+    background-color: #ebe9e9; 
+    height: 47px; 
+    width: 408px;
+  }
+/* SW 전공 */
+  .major {
+    margin-top: 16px;
+  }
+  .major p {
+    font-size: 13px;
+    line-height: 2px;
+  }
+  .major button {
+    height: 50px; 
+    width: 416px;
+  }
+/* SW 부/복/연계 전공 */
+  .sub_major {
+    margin-top: 16px;
+  }
+  .sub_major p {
+    font-size: 13px;
+    line-height: 2px;
+  }
+  .sub_major button {
+    height: 50px; 
+    width: 416px;
+  }
+/* 졸업예정 */
+  .date {
+    margin-top: 16px;
+  }
+  .date p {
+    font-size: 13px;
+  }
+  .year{
+    border: 2px solid #D8D8D8;
+    border-radius: 5px; 
+    background-color: white; 
+    font-size: 13px;
+    height: 47px; 
+    width: 102px;
+  }
+  .month {
+    border: 2px solid #D8D8D8;
+    border-radius: 5px; 
+    background-color: white; 
+    font-size: 13px;
+    height: 47px; 
+    width: 69px;
+  }
+/* 진로 계획?? */
+  .plan {
+    margin-top: 16px;
+  }
+  .plan p {
+    font-size: 13px;
+  }
+  .plan input {
+    border: 2px solid #D8D8D8;
+    border-radius: 5px; 
+    background-color: white;
+    height: 47px;
+    width: 408px;
+  }
+  
+/* 회원가입 */
+  .signup_button {
+    /* background: lightgreen; */
+    margin-top: 24px;
+  }
+  .signup_button input {
+    font-size: 18px; 
+    font-weight: bold;
+    color: white; 
+    border:none; 
+    border-radius: 5px; 
+    background-color: #2E64FE; 
+    height: 66.02px; 
+    width: 412px
+  }

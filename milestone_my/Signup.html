@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>회원가입</title>
+        <link rel="stylesheet" type="text/css" href="./header.css" />
+        <link rel="stylesheet" type="text/css" href="./Signup.css" />
+        <link rel="stylesheet" type="text/css" href="./DropDown.css" />
+    </head>
+    <body>
+    <!-- ###################### 상단 메뉴 ###################### -->
+    <header>
+        <div class="top_bar">
+          <div class="logo">
+            <a href="./Main.html">
+              <font size="2" color="#000000">부산대학교</font>
+              <br />
+              <font size="4" color="#2E64FE"><strong>SW역량지원시스템</strong></font>
+            </a>
+          </div>
+          <nav class="menu">
+            <ul>
+              <li><a href="#">마일스톤</a></li>
+              <li><a href="#">팀빌딩</a></li>
+              <li><a href="#">커뮤니티</a></li>
+              <li><a href="#">PNU 해커톤</a></li>
+            </ul>
+          </nav>
+          <div class="login">
+            <a href="Signin.html"><input type="button" value="로그인/회원가입" /></a>
+          </div>
+        </div>
+      </header>
+      <!-- ###################### 상단 메뉴 ###################### -->
+      <!-- ###################### 회원가입 정보 ###################### -->
+      <main>
+        <div class="main-container">
+            <div class="signup_container">
+              <div class="signup_text">
+                <h1>회원가입</h1>
+                <p>PNU SW역량시스템 첫 사용시 회원가입이 필요합니다.</p>
+              </div>
+              <div class="signup_id">
+                <p>아이디 (이메일 주소) <font>*</font></p>
+                <input type="text" name="userID" placeholder="아이디 입력" />
+              </div>
+              <div class="signup_pw">
+                <p>비밀번호 <font>*</font></p>
+                <input type="password" name="userPw" placeholder="비밀번호 입력"/>
+              </div>
+              <div class="signup_pw_check">
+                <p>비밀번호 확인 <font>*</font></p>
+                <input type="text" name="userPw_check" placeholder="비밀번호 입력..." />
+              </div>
+              <div class="pnu_id">
+                <p>학번/교직원 번호 <font>*</font></p>
+                <input type="text" name="pnu_id" placeholder="예) 202112345" />
+              </div>
+              <div class="phone">
+                <p>전화번호</p>
+                <input type="text" name="phone_num" placeholder="예) 01012345678" />
+              </div>
+              <div class="Name">
+                <p>이름 <font>*</font></p>
+                <input type="text" name="name" placeholder="예) 홍길동" />
+              </div>
+              <div class="department">
+                <p>학과</p>
+                  <div class="dropdown1">
+                    <button type="button" onclick="myDropDown1()" class="dropbtn1">전공선택...</button>
+                    <div id="myDropdown1" class="dropdown1-content">
+                      <a href="#">컴퓨터공학 전공</a>
+                      <a href="#">AI전공</a>
+                      <a href="#">의생명 융합전공</a>
+                    </div>
+                  </div>
+                  <script src="./DropDown.js"></script>
+              </div>
+              <div class="agree">
+                <input type="checkbox" name="agree" /> 
+                <p>가입을 위해 <a href="#">약관</a>에 동의합니다 <font>(필수)</font></p>
+              </div>
+              <div class="signup_button">
+                <a href="./Signup_Add.html"><input type="submit" value="회원가입" /></a>
+              </div>
+              <div class="recheck">
+                <p>이미 회원이신가요? <a href="./Signin.html">뒤로가기</a></p>
+              </div>
+            </div>
+        </div>
+      </main>
+      <!-- ###################### 회원가입 정보 ###################### -->
+    </body>
+</html>

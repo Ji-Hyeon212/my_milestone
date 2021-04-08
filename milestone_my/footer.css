@@ -1,0 +1,79 @@
+/*######하단 메뉴######*/
+footer {
+  background: #F2F2F2;
+  position: relative;
+  width: 100%;
+  height: 150px;
+  /* top: 1449px; */
+  border-top: 1px solid gray;
+}
+.bottom_bar {
+  /* background: #F2F2F2; */
+  width: 1278px;
+  height: 150px;
+  margin: auto;
+}
+
+.copyright {
+  /* background: #00FFFF; */
+  margin-top: 40px;
+  margin-left: 45px;
+  margin-right: 137px;
+  width: 211px;
+  height: 67px;
+  float: left;
+}
+.bottom_logo {
+  width: 162px;
+  height:40px;
+  margin-bottom: 16px;
+}
+.possession {
+  width: 211px;
+  height: 11px;
+  font-size: 11px;
+  color: #6E6E6E
+}
+
+.info {
+  /* background: #008cff; */
+  margin-top: 43px;
+  width: 285px;
+  height: 64px;
+  float: left;
+  font-size: 11px;
+}
+.addr {
+  width: 285px;
+  height: 36px;
+  margin-bottom: 17px;
+}
+.tel {
+  width: 166px;
+  height: 11px;
+  color: #585858;
+}
+
+.policy {
+  /* background: #ae00ff; */
+  margin-top: 40px;
+  margin-right: 45px;
+  width: 202px;
+  height: 11px;
+  float: right;
+  font-size: 11px;
+}
+.policy_1 {
+  width: 89px;
+  height: 11px;
+  margin-right: 35px;
+  float: left;
+  text-decoration: underline;
+}
+.policy_2 {
+  width: 78px;
+  height: 11px;
+  float: left;
+  text-decoration: underline;
+}
+/*######하단 메뉴######*/

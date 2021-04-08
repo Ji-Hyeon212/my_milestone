@@ -1,0 +1,62 @@
+/*######상단 메뉴######*/
+header {
+  /* background: #CEECF5; */
+  /* position: relative; */
+  width: 100%;
+  height: 79px;
+  top: 1px;
+  border-bottom: 1px solid gray;
+  /* margin: auto; */
+  text-align: center;
+}
+/*상단 바 전체 wrapper class*/
+.top_bar { 
+  /* background: #A9D0F5; */
+  width: 1278px;
+  height: 79px;
+  margin: 0 auto;
+  overflow: auto;
+}
+/* 부산대학교 SW 역량지원시스템*/
+.logo {
+  text-align: left;
+}
+.logo a {
+  float: left;
+  width: 162px;
+  height: 40px;
+  margin-top: 16px;
+  margin-left: 40px;
+  margin-right: 146px;
+  text-decoration: none;
+}
+
+/*마일스톤, 커뮤니티, PNU 해커톤 */
+.menu ul{
+  list-style: none;
+}
+.menu ul li {
+  float: left;
+  padding: 10px 20px;
+}
+.menu ul li a {
+  color: #848484;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+}
+/*로그인/회원가입*/
+.login {
+  float: right;
+  margin-right: 60.99px;
+}
+.login input {
+  color: white;
+  font-size: 15px;
+  border: none;
+  border-radius: 30px;
+  background-color: #5882FA;
+  height: 47px;
+  width: 129.77px
+}
+/*######상단 메뉴######*/

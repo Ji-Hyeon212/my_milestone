@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>회원가입(추가정보)</title>
+        <link rel="stylesheet" type="text/css" href="./header.css" />
+        <link rel="stylesheet" type="text/css" href="./Signup_Add.css" />
+        <link rel="stylesheet" type="text/css" href="./DropDown.css" />
+    </head>
+    <body>
+    <!-- ###################### 상단 메뉴 ###################### -->
+    <header>
+        <div class="top_bar">
+          <div class="logo">
+            <a href="./Main.html">
+              <font size="2" color="#000000">부산대학교</font>
+              <br />
+              <font size="4" color="#2E64FE"><strong>SW역량지원시스템</strong></font>
+            </a>
+          </div>
+          <nav class="menu">
+            <ul>
+              <li><a href="#">마일스톤</a></li>
+              <li><a href="#">팀빌딩</a></li>
+              <li><a href="#">커뮤니티</a></li>
+              <li><a href="#">PNU 해커톤</a></li>
+            </ul>
+          </nav>
+          <div class="login">
+            <a href="Signin.html"><input type="button" value="로그인/회원가입" /></a>
+          </div>
+        </div>
+      </header>
+      <!-- ###################### 상단 메뉴 ###################### -->
+      <!-- ###################### 회원가입 추가 정보 ###################### -->
+      <main>
+        <div class="main-container">
+            <div class="signup_add_container">
+                <div class="signup_text">
+                    <h1>회원가입(추가정보)</h1>
+                    <p>SW전공 학생이라면, 조금만 더 입력해주세요.</p>
+                </div>
+
+                <div class="profile">
+                    <img src="./Signup_Add_profile.svg" /> 
+                    <p><a href="#">프로필 사진 변경...</a></p>
+                </div>
+
+                <div class="name">
+                    <p>이름</p>
+                    <input type="text" name="name" placeholder="김철수" />
+                </div>
+
+                <div class="major">
+                  <p>SW 전공</p>
+                  <div class="dropdown1">
+                    <button type="button" onclick="myDropDown1()" class="dropbtn1">전공선택...</button>
+                    <div id="myDropdown1" class="dropdown1-content">
+                      <a href="#">컴퓨터공학 전공</a>
+                      <a href="#">AI전공</a>
+                      <a href="#">의생명 융합전공</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="sub_major">
+                  <p>SW 부/복/연계 전공</p>
+                  <div class="dropdown2">
+                    <button type="button" onclick="myDropDown2()" class="dropbtn2">SW 부/복/연계 전공 선택...</button>
+                    <div id="myDropdown2" class="dropdown2-content">
+                      <a href="#">컴퓨터공학 전공</a>
+                      <a href="#">AI전공</a>
+                      <a href="#">의생명 융합전공</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="date">
+                  <p>졸업 예정</p>
+                  <input type="text" class="year" name="year" placeholder="예) 2024" /> 
+                  년
+                  <input type="text" class="month" name="month" placeholder="예) 03" />
+                  월
+                </div>
+
+                <div class="plan">
+                  <p>진로 계획</p>
+                  <input type="email" name="pnuemail" placeholder="예) 개발자" />
+                </div>
+
+                <div class="signup_button">
+                    <input type="submit" value="회원가입 완료!" />
+                </div>
+
+            </div>
+          </div>
+      </main>
+      <script src="./DropDown.js"></script>
+      <!-- ###################### 회원가입 추가 정보 ###################### -->
+    </body>
+</html>

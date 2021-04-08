@@ -1,0 +1,98 @@
+main {
+
+  }
+
+.main-container {
+    /* background: lightcoral; */
+    width: 1280px; /* 이 부분과 grid로 인해 상단 바가 같이 움직임*/
+    margin: auto;
+    /*--> Signin 페이지랑 충돌이 일어나서 header 파일이 약간 움직임*/
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(34, 40px);
+    gap: 5px;
+    position: relative;
+  }
+  .signin_container {
+    /* background: lightgreen; */
+    grid-column: 2/3;
+    grid-row: 2/15;
+  }
+
+  .login_text {
+    /* background: lightgreen; */
+    margin-top: 73px;
+  }
+  .login_text p {
+    font-size: 13px;
+  }
+
+  .Id {
+    /* background: lightgreen; */
+    margin-top: 52px;
+  }
+  .Id p {
+    font-size: 13px;
+    line-height: 2px;
+  }
+  .Id input {
+    border:none; 
+    border-radius: 5px; 
+    border: 2px solid #D8D8D8;
+    background-color: white; 
+    height: 47px; 
+    width: 408px;
+  }
+
+  .Pw {
+    /* background: lightgreen; */
+    margin-top: 23.72px;
+  }
+  .Pw p {
+    font-size: 13px;
+    line-height: 2px;
+  }
+  .Pw input {
+    border:none; 
+    border-radius: 5px; 
+    border: 2px solid #D8D8D8;
+    background-color: white; 
+    height: 47px; 
+    width: 408px;
+  }
+
+  .login_button {
+    /* background: lightgreen; */
+    margin-top: 24px;
+  }
+  .login_button input {
+    font-size: 18px; 
+    font-weight: bold;
+    color: white; 
+    border:none; 
+    border-radius: 5px; 
+    background-color: #2E64FE; 
+    height: 66.02px; 
+    width: 412px
+  }
+
+  .ex {
+    margin-top: 23.99px;
+    font-size: 13px;
+    color: #929292;
+  }
+  .Find {
+    margin-left: 44px;
+    margin-right: 28.5px;
+    float: left;
+  }
+  .Divide {
+    margin-right: 27.5px;
+    float: left;
+  }
+  .signup {
+    float: left;
+  }
+  .signup a {
+    color: black;
+  }
